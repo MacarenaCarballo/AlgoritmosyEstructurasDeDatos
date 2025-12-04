@@ -17,9 +17,9 @@ typedef int(*tCmp)(void *,void*);
 
 void crearPila(tPila *p);
 void vaciarPila(tPila *p);
-int apilar(tPila *p, void *dato, unsigned tam);
+int apilar(tPila *p, const void *dato, unsigned tam);
 int desapilar(tPila *p, void *dato, unsigned tam);
-int verTope(tPila *p, void *dato, unsigned tam);
-int pilaLlena(tPila *p, unsigned tam);
-int pilaVacia(tPila *p);
+int verTope(const tPila *p, void *dato, unsigned tam);
+int pilaLlena(const tPila *p, unsigned tam);
+int pilaVacia(const tPila *p);
 #endif // HEADPILA_H_INCLUDED

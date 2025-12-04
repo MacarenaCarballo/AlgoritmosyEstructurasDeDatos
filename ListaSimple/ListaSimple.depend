@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1764818429 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listasimple\funcioneslista.c
+	"headLista.h"
+
+1764817970 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listasimple\headlista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1764818334 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listasimple\main.c
+	"headLista.h"
+

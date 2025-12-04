@@ -15,7 +15,7 @@ void vaciarPila(tPila *p)
     }
 
 }
-int apilar(tPila *p, void *dato, unsigned tam)
+int apilar(tPila *p, const void *dato, unsigned tam)
 {
     tNodo *nue=malloc(sizeof(tNodo));
     if(!nue)
@@ -44,18 +44,18 @@ int desapilar(tPila *p, void *dato, unsigned tam)
     free(elim);
     return 0;
 }
-int verTope(tPila *p, void *dato, unsigned tam)
+int verTope(const tPila *p, void *dato, unsigned tam)
 {
     if(!*p)
         return 1;
     memcpy(dato,(*p)->dato,MINIMO(tam,(*p)->tam));
     return 0;
 }
-int pilaLlena(tPila *p, unsigned tam)
+int pilaLlena(const tPila *p, unsigned tam)
 {
     return 0;
 }
-int pilaVacia(tPila *p)
+int pilaVacia(const tPila *p)
 {
     if(!*p)
         return 0;

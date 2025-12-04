@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1764809219 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\cola\funcionescola.c
+	"headCola.h"
+
+1764806547 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\cola\headcola.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1764809700 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\cola\main.c
+	"headCola.h"
+
