@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1764954560 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listadoble\main.c
+	"headDoble.h"
+
+1764954535 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listadoble\headdoble.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1764954568 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listadoble\funcdoble.c
+	"headDoble.h"
+

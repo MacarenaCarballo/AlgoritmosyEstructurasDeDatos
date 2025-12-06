@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1764947849 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listacircular\main.c
+	"headListaCir.h"
+
+1764947572 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listacircular\headlistacir.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1764947942 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\listacircular\funclistacir.c
+	"headListaCir.h"
+

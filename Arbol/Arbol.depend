@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1765038760 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\arbol\funcarbol.c
+	"headArbol.h"
+
+1765038719 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\arbol\headarbol.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1765038815 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\arbol\main.c
+	"headArbol.h"
+
