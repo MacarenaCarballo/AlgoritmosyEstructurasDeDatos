@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1761780703 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\finalalgoritmos2c\main.c
+	"headers.h"
+
+1762382423 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\finalalgoritmos2c\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1762382404 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\finalalgoritmos2c\funciones.c
+	"headers.h"
+
+1761780703 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\finalalgoritmos2c\main.c
+	"headers.h"
+
+1765228508 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\finalalgoritmos2c\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

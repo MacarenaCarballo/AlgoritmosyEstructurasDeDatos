@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1765149102 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\finaloctubre\main.c
+	"final.h"
+
+1765149090 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\finaloctubre\final.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1765149045 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\finaloctubre\funciones.c
+	"final.h"
+
