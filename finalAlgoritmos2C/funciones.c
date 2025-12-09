@@ -6,10 +6,17 @@ void crear_tabla_puntos(t_tabla_puntos* p, unsigned tam)
 }
 int agregar_puntaje(t_tabla_puntos* p, const t_puntaje* dato)
 {
-
+    return insertarNodo(&p->tabla,dato,sizeof(t_puntaje),compararEnteros,p->tam);
 }
-void imprimir_tabla_puntos(t_tabla_puntos* p);
-void vaciar_tabla_puntos(t_tabla_puntos* p);
+void imprimir_tabla_puntos(t_tabla_puntos* p)
+{
+    mostrarLista(&p->tabla,mostrarEntero);
+}
+void vaciar_tabla_puntos(t_tabla_puntos* p)
+{
+    vaciarLista(&p->tabla);
+    p->tam=0;
+}
 
 void crearLista(t_lista *pl)
 {
@@ -44,7 +51,7 @@ int insertarNodo(t_lista *pl,const void *dato, unsigned tam, tCmp comparar, unsi
     // Ahora eliminar el último si hay más de topN elementos
     cont = 0;
     t_lista *pAux = pl;
-    while(*pAux && cont < topN - 1)
+    while(*pAux && cont < top - 1)
     {
         cont++;
         pAux = &(*pAux)->sig;
@@ -85,9 +92,66 @@ int listaVacia(t_lista *pl)
         return OK;
     return ERROR;
 }
-int compararEnteros(void *a, void *b)
+int compararEnteros(const void *a,const void *b)
 {
     t_puntaje a1=*(t_puntaje*)a;
     t_puntaje b1=*(t_puntaje*)b;
     return a1.puntaje-b1.puntaje;
+}
+int mostrarLista(t_lista *lista, tAccion mostrarDato)
+{
+    t_lista *pLista;
+    if(*lista==NULL)
+    {
+        printf("LA LISTA ESTA VACIA!\n");
+        return 1;
+    }
+    pLista=lista;
+    while(*pLista!=NULL)
+    {
+        mostrarDato((*pLista)->dato,NULL); //mostrar
+        pLista= &(*pLista)->sig;
+    }
+
+    return OK;
+
+}
+void mostrarEntero(const void *dato, void *b)
+{
+    t_puntaje a1=*(t_puntaje*)dato;
+    printf("El %s tiene: %d puntos\n",a1.iniciales,a1.puntaje);
+    //CASTEO EL PUNTERO A VOID A UN PUNTERO A INT Y MUESTRO SU CONTENIDO!!!
+}
+
+int tablaPuntaje(char *nombre, t_tabla_puntos *tabla)
+{
+    FILE *pf=fopen(nombre,"rt");
+    if(!pf)
+        return 1;
+    char linea[20], iniciales[4];
+    int top,puntaje;
+    t_puntaje reg;
+//    t_puntaje vec[]={{"AAA",20},
+//    {"ABA",10},
+//    {"ACA",80}};
+//    for(int i=0; i<3; i++)
+//    {
+//        agregar_puntaje(&tabla,&vec[i]);
+//    }
+    fgets(linea,20,pf);
+    top=atoi(linea);
+    crear_tabla_puntos(tabla,top);
+    printf("%s",linea);
+    while(fgets(linea,20,pf))
+    {
+        sscanf(linea,"%s %d",iniciales,&puntaje);
+        printf("%s",linea);
+        printf("%s %d\n",iniciales,puntaje);
+        strcpy(reg.iniciales,iniciales);
+        reg.puntaje=puntaje;
+        agregar_puntaje(tabla,&reg);
+
+    }
+    fclose(pf);
+    return 0;
 }
