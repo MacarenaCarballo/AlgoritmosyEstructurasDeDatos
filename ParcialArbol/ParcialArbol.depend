@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1765428752 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\parcialarbol\funciones.c
+	"headArbol.h"
+
+1765428701 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\parcialarbol\headarbol.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1765428716 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\parcialarbol\main.c
+	"headArbol.h"
+

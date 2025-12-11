@@ -131,22 +131,12 @@ int tablaPuntaje(char *nombre, t_tabla_puntos *tabla)
     char linea[20], iniciales[4];
     int top,puntaje;
     t_puntaje reg;
-//    t_puntaje vec[]={{"AAA",20},
-//    {"ABA",10},
-//    {"ACA",80}};
-//    for(int i=0; i<3; i++)
-//    {
-//        agregar_puntaje(&tabla,&vec[i]);
-//    }
     fgets(linea,20,pf);
     top=atoi(linea);
     crear_tabla_puntos(tabla,top);
-    printf("%s",linea);
     while(fgets(linea,20,pf))
     {
         sscanf(linea,"%s %d",iniciales,&puntaje);
-        printf("%s",linea);
-        printf("%s %d\n",iniciales,puntaje);
         strcpy(reg.iniciales,iniciales);
         reg.puntaje=puntaje;
         agregar_puntaje(tabla,&reg);
