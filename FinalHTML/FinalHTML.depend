@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1765568163 source:c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\finalhtml\main.c
+	"headHTML.h"
+
+1765568374 c:\users\macar\onedrive\documentos\github\algoritmosyestructurasdedatos\finalhtml\headhtml.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

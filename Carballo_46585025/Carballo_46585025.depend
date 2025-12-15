@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1765582731 source:c:\users\lab261\desktop\carballo_46585025\funcfinal.c
+	"headFinal.h"
+
+1765581660 source:c:\users\lab261\desktop\carballo_46585025\main.c
+	"headFinal.h"
+
+1765581204 c:\users\lab261\desktop\carballo_46585025\headfinal.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
