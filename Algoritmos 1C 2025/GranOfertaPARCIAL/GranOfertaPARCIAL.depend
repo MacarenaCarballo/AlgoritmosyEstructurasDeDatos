@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1750099625 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\granofertaparcial\parcialfunc.c
+	"parcial.h"
+
+1750099483 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\granofertaparcial\parcial.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1750099586 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\granofertaparcial\main.c
+	"parcial.h"
+

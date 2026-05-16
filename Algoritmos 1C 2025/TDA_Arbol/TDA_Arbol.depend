@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1749952808 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_arbol\funciones.c
+	"head.h"
+
+1749951570 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_arbol\head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1749952824 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_arbol\main.c
+	"head.h"
+

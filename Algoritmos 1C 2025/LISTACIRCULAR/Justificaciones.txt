@@ -1,0 +1,9 @@
+1-> justificar la eleccion de como manejan la lista.
+2-> lista circular ordena ????? es facila de implementar? dificil? tiene sentido?
+3-> cuales son los posibles usos de una lista circular?
+
+1) La lita circular la manejamos como si fuera una "Cola" circular pero si la podemos recorrer, ya que siempre dejamos apuntando al ultimo nodo al agregar. Y al eliminar eliminamos el primero que entro
+haciendo *lista->sig. 
+2) Una lista circular ordenada puede ser facil de implementarla ya que es buscar la posicion indicada y hacer los enganches pero no siempre es de mucha utilidad ya que si queres insertar el numero mas grande por 
+ejemplo la tenes que recorrer toda, ya que es simplemente enlazada. Si facilita la busqueda pero no mucho mas.
+3) Podria ser simulaciones de ciclos en la vida real.Como un carrousel de fotos, relojes, etc.

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1753646773 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\final2024lista\func.c
+	"head.h"
+
+1753646773 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\final2024lista\head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1753646870 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\final2024lista\main.c
+	"head.h"
+

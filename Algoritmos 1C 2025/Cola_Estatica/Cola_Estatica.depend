@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1749336757 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\cola_estatica\main.c
+	"headColaEst.h"
+
+1745947503 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\cola_estatica\headcolaest.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1749336679 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\cola_estatica\funccolaest.c
+	"headColaEst.h"
+

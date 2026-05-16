@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1751051674 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcialnuevobienhecho\main.c
+	"header.h"
+
+1751051245 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcialnuevobienhecho\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1751051385 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcialnuevobienhecho\funciones.c
+	"header.h"
+

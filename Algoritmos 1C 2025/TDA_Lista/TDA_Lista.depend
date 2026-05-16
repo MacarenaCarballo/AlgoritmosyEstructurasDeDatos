@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1749393042 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_lista\main.c
+	"lista_head.h"
+	"pilaDinamica.h"
+
+1749392371 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_lista\lista_head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1749393369 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_lista\lista_func.c
+	"lista_head.h"
+	"pilaDinamica.h"
+
+1746648033 source:c:\users\laboratorios\downloads\tda_lista\lista_func.c
+	"lista_head.h"
+
+1746650991 c:\users\laboratorios\downloads\tda_lista\lista_head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1746647587 source:c:\users\laboratorios\downloads\tda_lista\main.c
+	"lista_head.h"
+
+1748638306 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_lista\piladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista_head.h"
+
+1748638306 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\tda_lista\piladinamica.c
+	"pilaDinamica.h"
+

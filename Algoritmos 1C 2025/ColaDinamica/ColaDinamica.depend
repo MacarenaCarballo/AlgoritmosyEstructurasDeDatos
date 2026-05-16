@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1746043201 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\coladinamica\main.c
+	"colaDinamica.h"
+
+1746041567 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\coladinamica\coladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1746042870 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\coladinamica\coladinamica.c
+	"colaDinamica.h"
+

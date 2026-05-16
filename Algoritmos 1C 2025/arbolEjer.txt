@@ -1,0 +1,40 @@
+unsigned cantNodosPorClaveDer(const tArbol *pa, tCmp comparar,void *clave)
+{
+    int cmp;
+
+    if(!*pa)
+        return 0;
+
+    if((cmp=comparar(clave,(*pa)->dato))==0)
+        return contarNodos(&(*pa)->der);
+
+    else if(cmp<0)
+        return cantNodosPorClaveDer(&(*pa)->izq,comparar,clave);
+    else
+        return cantNodosPorClaveDer(&(*pa)->der,comparar,clave);
+}
+
+int eliminarHoja(tArbol *pa, tCmp comparar,void *clave)
+{
+    int cmp;
+
+    if(!*pa)
+        return 0;
+
+    if((cmp=comparar(clave,(*pa)->dato))==0)
+    {
+        if((*pa)->der==NULL && (*pa)->izq==NULL)
+        {
+            free((*pa)->dato);
+            free(*pa);
+            *pa=NULL;
+            return 1;
+        }
+        else
+            return 0;
+    }
+    else if(cmp<0)
+        return eliminarHoja(&(*pa)->izq,comparar,clave);
+    else
+        return eliminarHoja(&(*pa)->der,comparar,clave);
+}

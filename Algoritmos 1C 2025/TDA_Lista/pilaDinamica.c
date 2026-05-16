@@ -1,0 +1,77 @@
+#include "pilaDinamica.h"
+void crearPila(tLista* pila)
+{
+    *pila=NULL;
+}
+
+int pilaVacia(const tLista *pila)
+{
+    if (*pila==NULL)
+        return PILA_VACIA;
+    return PILA_NO_VACIA;
+}
+
+int apilar(tLista *pila, void *dato, unsigned tam)
+{
+    tNodo *nuevo=(tNodo*)malloc(sizeof(tNodo));
+    if(!nuevo)
+        return SIN_MEM;
+
+    nuevo->dato=malloc(tam);
+    if(!nuevo->dato)
+    {
+        free(nuevo);
+        return SIN_MEM;
+    }
+
+    memcpy(nuevo->dato,dato,tam);
+    nuevo->tam=tam;
+    nuevo->sig=*pila;
+
+    *pila=nuevo;
+    return REALIZADO;
+}
+
+int pilaLlena(const tLista *pila, unsigned tam)
+{
+    return PILA_DISPO;
+}
+
+int desapilar(tLista *pila, void* dato, unsigned tam)
+{
+    tNodo *elim;
+    elim=*pila;
+
+    if (elim==NULL)
+        return PILA_VACIA;
+
+    memcpy(dato,elim->dato,MINIMO(elim->tam,tam));
+
+    *pila=elim->sig;
+
+    free(elim->dato);
+    free(elim);
+
+    return REALIZADO;
+}
+
+int verTope(tLista *pila, void *dato, unsigned tam)
+{
+    if(*pila==NULL)
+        return PILA_VACIA;
+
+    memcpy(dato,(*pila)->dato,MINIMO((*pila)->tam,tam));
+    return REALIZADO;
+}
+
+void vaciarPila(tLista *pila)
+{
+    tNodo *aux;
+    while(*pila)
+    {
+        aux=*pila;
+        *pila=aux->sig;
+        free(aux->dato);
+        free(aux);
+    }
+}

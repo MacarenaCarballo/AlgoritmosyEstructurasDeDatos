@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1747860286 source:c:\users\laboratorios\desktop\listadoblementeenlazada\main.c
+	"listaDoble.h"
+
+1747860743 c:\users\laboratorios\desktop\listadoblementeenlazada\listadoble.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1747860312 source:c:\users\laboratorios\desktop\listadoblementeenlazada\listadoble.c
+	"listaDoble.h"
+
+1749394661 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\listadoblementeenlazada\listadoble.c
+	"listaDoble.h"
+
+1749394725 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\listadoblementeenlazada\listadoble.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1749394781 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\listadoblementeenlazada\main.c
+	"listaDoble.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1750122724 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\indice_y_estructuras\main.c
+	"headAlgoritmos.h"
+
+1750122724 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\indice_y_estructuras\headalgoritmos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1750122724 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\indice_y_estructuras\functionsaalgoritmos.c
+	"headAlgoritmos.h"
+

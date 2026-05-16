@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1747686635 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\listacircular\main.c
+	"lista_head.h"
+
+1747683776 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\listacircular\lista_head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1747686469 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\listacircular\lista_func.c
+	"lista_head.h"
+

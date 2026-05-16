@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1744725287 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pila_desborde\pila_hibrida.c
+	"pila_hibrida.h"
+
+1744725172 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pila_desborde\pila_hibrida.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1744725707 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pila_desborde\main.c
+	"pila_hibrida.h"
+
+1744737890 source:c:\users\54113\desktop\1ercuatri_2025\algoritmos_y_estructuras_de_datos\clasesrenata2025\pila_desborde\pila_desborde\main.c
+	"pila_hibrida.h"
+
+1744736511 c:\users\54113\desktop\1ercuatri_2025\algoritmos_y_estructuras_de_datos\clasesrenata2025\pila_desborde\pila_desborde\pila_hibrida.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1744736353 source:c:\users\54113\desktop\1ercuatri_2025\algoritmos_y_estructuras_de_datos\clasesrenata2025\pila_desborde\pila_desborde\pila_hibrida.c
+	"pila_hibrida.h"
+
+1744738196 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pila_desborde_version2\main.c
+	"pila_hibrida.h"
+
+1744738196 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pila_desborde_version2\pila_hibrida.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1744738196 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pila_desborde_version2\pila_hibrida.c
+	"pila_hibrida.h"
+

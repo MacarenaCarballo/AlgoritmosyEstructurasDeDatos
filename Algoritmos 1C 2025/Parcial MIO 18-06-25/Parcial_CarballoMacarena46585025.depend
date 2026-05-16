@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1750280079 source:c:\users\laboratorios\desktop\parcial_carballomacarena46585025\funciones_carballo.c
+	"header_Carballo.h"
+
+1750280079 c:\users\laboratorios\desktop\parcial_carballomacarena46585025\header_carballo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1750280093 source:c:\users\laboratorios\desktop\parcial_carballomacarena46585025\main.c
+	"header_Carballo.h"
+
+1750280988 source:c:\users\laboratorios\desktop\46585025_carballo_lopez\main.c
+	"header_Carballo.h"
+
+1750280988 c:\users\laboratorios\desktop\46585025_carballo_lopez\header_carballo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1750280934 source:c:\users\laboratorios\desktop\46585025_carballo_lopez\funciones_carballo.c
+	"header_Carballo.h"
+
+1751050015 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcial mio 18-06-25\funciones_carballo.c
+	"header_Carballo.h"
+
+1750280988 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcial mio 18-06-25\header_carballo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1750280988 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcial mio 18-06-25\main.c
+	"header_Carballo.h"
+

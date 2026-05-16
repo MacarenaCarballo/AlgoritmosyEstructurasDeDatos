@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1750173507 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\practicaparcial\func.c
+	"head.h"
+
+1750173507 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\practicaparcial\head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750173690 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\practicaparcial\main.c
+	"head.h"
+

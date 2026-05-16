@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1744229469 source:c:\users\laboratorios\desktop\clase1carballo\funciones.c
+	"funciones.h"
+
+1744229543 c:\users\laboratorios\desktop\clase1carballo\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1744229495 source:c:\users\laboratorios\desktop\clase1carballo\main.c
+	"funciones.h"
+
+1744827222 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\clase1carballo\main.c
+	"funciones.h"
+
+1744826434 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\clase1carballo\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1744826502 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\clase1carballo\funciones.c
+	"funciones.h"
+

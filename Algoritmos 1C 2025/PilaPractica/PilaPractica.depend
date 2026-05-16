@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1750177707 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pilapractica\main.c
+	"pilaHead.h"
+
+1750178671 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\pilapractica\pilahead.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

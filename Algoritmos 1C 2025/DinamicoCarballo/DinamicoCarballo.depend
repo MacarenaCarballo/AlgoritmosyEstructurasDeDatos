@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1745440972 source:c:\users\laboratorios\desktop\dinamicocarballo\func.c
+	"func.h"
+
+1745440642 c:\users\laboratorios\desktop\dinamicocarballo\func.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1745440642 source:c:\users\laboratorios\desktop\dinamicocarballo\main.c
+	"func.h"
+
+1745609218 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\dinamicocarballo\main.c
+	"func.h"
+
+1745608124 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\dinamicocarballo\func.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1746035331 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\dinamicocarballo\func.c
+	"func.h"
+

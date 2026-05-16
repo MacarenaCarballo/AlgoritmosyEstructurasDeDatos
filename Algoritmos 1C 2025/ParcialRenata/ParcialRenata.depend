@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1750196911 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcialrenata\funciones.c
+	"head.h"
+
+1750196703 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcialrenata\head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1750197195 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcialrenata\main.c
+	"head.h"
+

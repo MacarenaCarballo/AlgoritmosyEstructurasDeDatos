@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1749950497 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcial_arbol\main.c
+	"parcialArbol.h"
+
+1749950497 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcial_arbol\parcialarbol.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1749952930 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\parcial_arbol\parcial_arbol.c
+	"parcialArbol.h"
+

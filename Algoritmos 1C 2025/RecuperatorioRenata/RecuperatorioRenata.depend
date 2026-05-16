@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1753630808 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\recuperatoriorenata\funcionesrecu.c
+	"headRecuperatorio.h"
+
+1753630964 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\recuperatoriorenata\headrecuperatorio.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1753630751 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\recuperatoriorenata\main.c
+	"headRecuperatorio.h"
+

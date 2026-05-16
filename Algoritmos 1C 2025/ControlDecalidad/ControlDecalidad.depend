@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1745962948 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\controldecalidad\controlcalidad.c
+	"controlCalidad.h"
+
+1745963158 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\controldecalidad\controlcalidad.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1745963191 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\controldecalidad\main.c
+	"controlCalidad.h"
+

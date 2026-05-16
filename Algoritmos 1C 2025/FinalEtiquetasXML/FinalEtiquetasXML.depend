@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1753553302 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\finaletiquetasxml\funcionesfinal.c
+	"headerFinal.h"
+
+1753551735 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\finaletiquetasxml\headerfinal.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1753552220 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\finaletiquetasxml\main.c
+	"headerFinal.h"
+

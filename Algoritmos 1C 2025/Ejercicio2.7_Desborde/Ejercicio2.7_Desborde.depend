@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1745357103 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\ejercicio2.7_desborde\func_ejercicio2.7.c
+	"head_Ejercicio2.7.h"
+
+1745271972 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\ejercicio2.7_desborde\head_ejercicio2.7.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1745357157 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\ejercicio2.7_desborde\main.c
+	"head_Ejercicio2.7.h"
+	"Ejercicio2.7Hibrido.h"
+
+1745356790 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\ejercicio2.7_desborde\ejercicio2.7hibrido.c
+	"Ejercicio2.7Hibrido.h"
+	"head_Ejercicio2.7.h"
+
+1745356769 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\ejercicio2.7_desborde\ejercicio2.7hibrido.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

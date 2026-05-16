@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1748462768 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\recursividad\main.c
+	"recursividad.h"
+
+1748462758 c:\users\macar\onedrive\documentos\algoritmos 1c 2025\recursividad\recursividad.h
+	<stdio.h>
+	<stdlib.h>
+
+1748463087 source:c:\users\macar\onedrive\documentos\algoritmos 1c 2025\recursividad\recursividad.c
+	"recursividad.h"
+
